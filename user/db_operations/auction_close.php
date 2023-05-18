@@ -54,18 +54,20 @@
                 // if($ending < $today_date && $enddate !== $yesterday_date){
 
                 $update_status=mysqli_query($con,"UPDATE auction SET auction_status='close' where p_id='$pid' and a_id='$aid'");
+                $update_status1=mysqli_query($con,"UPDATE auction SET auction_status='close' where p_id='$pid' and a_id='$aid'");
 
             }
 
 
 
             if($update_status){
-                
+
 
                 // echo "hello";
 
                 //fetching all bidders of the product
                 $selectBidders=mysqli_query($con,"SELECT * from bids where p_id='$pid' and a_id='$aid'");
+                $selectBidders1=mysqli_query($con,"SELECT * from bids where p_id='$pid' and a_id='$aid'");
 
                 while($row2=mysqli_fetch_assoc($selectBidders)){
 
