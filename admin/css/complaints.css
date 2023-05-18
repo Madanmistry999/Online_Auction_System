@@ -1,0 +1,43 @@
+textarea{
+    resize: none;
+    font-size: 14px;
+    font-display: initial;
+    border: none;
+}
+
+table tr td button{
+    background: black;
+    color: white;
+    width: fit-content;
+}
+
+.empty{
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:red;
+}
+
+.empty .fa-sharp{
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+.empty h1{
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.search{
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    width: 50%;
+    margin-left: 20px;
+    align-self: center;
+  }
+
+  .search:hover{
+    background: #f1f1f1;
+  }
