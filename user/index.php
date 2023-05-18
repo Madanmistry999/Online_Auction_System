@@ -279,7 +279,6 @@
         }
         else{
             echo "djdkkkd";
-            echo "djdkkkd";
         }
     
     ?>
